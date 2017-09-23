@@ -1,1 +1,1 @@
-# IPProject
+# Image Processing Midterm Project
