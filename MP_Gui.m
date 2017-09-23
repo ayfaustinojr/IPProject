@@ -86,7 +86,6 @@ else
 end
 imageSelect = imread(strcat(pn,fn));
 assignin('caller','image',imageSelect);
-figure,imshow(uint8(image));
 imshow(imageSelect,'Parent',handles.axes1);
 
 
