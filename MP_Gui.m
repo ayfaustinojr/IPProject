@@ -87,8 +87,7 @@ end
 imageSelect = imread(strcat(pn,fn));
 assignin('caller','image',imageSelect);
 figure,imshow(uint8(image));
-%image1 = double(image) - 70;
-%imshow(image1,'Parent',handles.axes1);
+imshow(imageSelect,'Parent',handles.axes1);
 
 
 % --- Executes on button press in flipImage.
